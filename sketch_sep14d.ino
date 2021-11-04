@@ -9,5 +9,5 @@ void setup() {
 void loop() {
   myVariable =random(200,1001);
   Serial.println("My random numer is = " + (String) myVariable);
-  delay(2000);
+  delay(1000);
 }
